@@ -51,10 +51,11 @@ function setup() {
   score = 0;
 
   gameOver = createSprite(400,100);
-  gameOver.addImage(gameOver.png)
-
+  line- gameOver.addImage(gameOverImg);
+  
   restart = createSprite(500,140);
-  restart.addImage(restart.png);
+  line -restart.addImage(restartImg);
+ 
 
   gameOver.scale = 0.5;
   restart.scale = 0.1;
